@@ -9,29 +9,31 @@
 
 Welcome to **BullStockOps**, a personal open-source project combining cutting-edge AI, financial analytics, and scalable software operations to revolutionize day trading.
 <p align="center">
-<img src="docs/bsops.png" width=500>
+<img src="docs/bsops.png" width=300>
 </p>
 
-## Project Overview
+## 👀 Project Overview
 
 **BullStockOps** is designed to empower traders with AI-driven insights and seamless trading operations. From stock price predictions to AI-assisted trade execution, this project provides a robust platform for experimentation and learning.
 
-## MVP1 Goals
+### MVP1 Goals
 - ➡️ Display real-time stock prices in a web and iOS app.
 
-### Features backlog
+#### Features backlog
 - 📊 Stock Market Data Integration: Access real-time and historical data through APIs (e.g., Alpha Vantage).
 - 📈 Predictive Analytics: Build LSTM-based models to forecast stock prices.
 - 🤖 AI-Assisted Trading: Develop AI agents for automated trading decisions.
 - 📱 iOS App Development: Leverage Apple Core ML and MLX for offline and online ML features.
 
-## Tech Stack
-- Backend:	Python 3.13, FastAPI, Pydantic
-- Frontend:	React & TypeScript (future)
-- Mobile: Apple Core ML, MLX
+## 🏗️ Architecture
+
+## ⚙️ Tech Stack
+- Backend:Python 3.13, uv, FastAPI, Pydantic
+- Frontend:	React & TypeScript
+- Mobile: Apple Core ML, MLX, Swift
 - AI Models	GPT-4, Claude, Gemini
 
-## Setup
+## 💻 Setup
 1. Update or install [uv](https://docs.astral.sh/uv/) using
 ```shell
 brew install uv

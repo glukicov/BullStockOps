@@ -5,7 +5,11 @@ description = "AI-powered FinTech Platform for Smarter Trading Operations"
 authors = [{name = "Gleb Lukicov"}]
 readme = "README.md"
 requires-python = "<3.14.0,>=3.13.0"
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.6",
+    "httpx>=0.28.1",
+    "pydantic>=2.10.4",
+]
 license = "MIT"
 
 [dependency-groups]

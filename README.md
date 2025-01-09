@@ -43,3 +43,10 @@ brew install uv
 uv sync
 source .venv/bin/activate
 ```
+3. Add keys (see [dotenvx](https://dotenvx.com/docs/quickstart))
+- https://www.alphavantage.co/support/#api-key
+```shell
+echo "ALPHA_VANTAGE_KEY=your_key_here" > .env
+dotenvx encrypt
+dotenvx ext gitignore --pattern .env.keys
+```

@@ -171,3 +171,5 @@ wheels/
 
 # Virtual environments
 .venv
+
+.env.keys

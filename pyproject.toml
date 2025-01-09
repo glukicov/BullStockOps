@@ -62,7 +62,7 @@ lint.ignore = []
 "__init__.py" = ["D104", "F403", "F401", "UP035"]
 
 [tool.pytest.ini_options]
-pythonpath = ["be.bullstockops"]
+pythonpath = ["src"]
 filterwarnings = [
     "ignore::DeprecationWarning",
     'ignore:setDaemon() is deprecated, set the daemon attribute instead:DeprecationWarning',

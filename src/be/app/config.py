@@ -22,7 +22,7 @@ def get_key_from_env(key: str) -> str:
 class Settings(BaseModel):
     """Application configuration"""
 
-    ALPHA_VANTAGE_KEY: str = get_key_from_env("MARKET_API_KEY")
+    ALPHA_VANTAGE_KEY: str = get_key_from_env("ALPHA_VANTAGE_KEY")
     API_BASE_URL: str = "https://www.alphavantage.co"
 
     class Config:
